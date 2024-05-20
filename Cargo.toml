@@ -1,0 +1,15 @@
+[package]
+name = "knor_knor_bot"
+description = """
+knor_knor_bot
+"""
+version = "0.0.0"
+
+license = "Apache-2.0"
+edition = "2021"
+
+[[bin]]
+name = "knor_knor_bot"
+path = "main.rs"
+
+[dependencies]
