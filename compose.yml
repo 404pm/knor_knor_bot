@@ -1,0 +1,7 @@
+services:
+  knor_knor_bot:
+    image: cr.yoke.rs/mekosko/knor_knor_bot:latest
+    container_name: knor_knor_bot
+    restart: always
+    environment:
+      - TELOXIDE_TOKEN=${TELOXIDE_TOKEN}
